@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<link rel="icon" href="img/favicon.jpg" type="image/jpg" sizes="16x32"> 
+	<link rel="stylesheet" type="text/css" href="../css/Register.css">
+	<style type="text/css">
+		body{
+			background-image: url("../img/booksss.jpg");
+		}
+	</style>
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body background="../img/register.jpg">
+
+<div class="container">
+    <h1 class="well">Registration Form</h1>
+	<div class="col-lg-12 well">
+	<div class="row">
+				<form action="registration.php" method="post">
+					<div class="col-sm-12">
+						<div class="row">
+						<!-- <div class="form-group">
+							   Browse Image:  <input type="file" name="file" id="file" required>
+						</div><br> -->
+							<div class="col-sm-6 form-group">
+								<label>First Name</label>
+								<input type="text" placeholder="Enter First Name Here.." name="fname" class="form-control" required>
+							</div>
+							<div class="col-sm-6 form-group">
+								<label>Last Name</label>
+								<input type="text" placeholder="Enter Last Name Here.." name="lname" class="form-control" required>
+							</div>
+						</div>					
+						<div class="form-group">
+							<label>Address</label>
+							<textarea placeholder="Enter Address Here.." rows="3" name="addr" class="form-control" required></textarea>
+						</div>	
+						<div class="row">
+							<div class="col-sm-4 form-group">
+								<label>City</label>
+								<input type="text" placeholder="Enter City Name Here.." name="city" class="form-control" required>
+							</div>	
+							<div class="col-sm-4 form-group">
+								<label>State</label>
+								<input type="text" placeholder="Enter State Name Here.." name="state" class="form-control" required>
+							</div>	
+							<div class="col-sm-4 form-group">
+								<label>PinCode</label>
+								<input type="text" placeholder="Enter PinCode Here.." name="pin" class="form-control" required>
+							</div>		
+						</div>
+							
+					<div class="form-group">
+						<label>Phone Number</label>
+                   <div class="col-md-6 col-sm-12 form-group input-group">
+                		<select class="custom-select" style="max-width: 120px;">
+                		    <option selected="">+91(India)</option>
+                		    <option value="1">+61(Australia)</option>
+                		    <option value="2">+86(China)</option>
+                		    <option value="3">+33(France)</option>
+                		    <option value="4">+49(Germany)</option>
+                		    <option value="5">+81(Japan)</option>
+                		    <option value="6">+960(Maldives)</option>
+                		    <option value="7">+977(Nepal)</option>
+                		    <option value="8">+7(Russia)</option>
+                		    <option value="9">+65(Singapore)</option>
+                		    <option value="10">+1(United States)</option>
+                		</select>
+                    	<input name="phone" class="form-control" placeholder="Phone number" maxlength="10" type="text" required>
+                    </div>
+            </div> <!-- form-group// -->
+            
+                <div class="form-group">
+                    <label for="birthDate" class="control-label">Date of Birth</label><br>
+                    
+                        <input type="date" id="birthDate" name="dob" class="form-control" required>
+                    
+                </div>
+
+
+			</div>		
+				<div class="form-group">
+					<label>Email Address</label>
+					<input type="Email" placeholder="Enter Email Address Here.." name="Email" class="form-control" required>
+			</div>	
+					<div class="form-group">
+						<label>Password</label>
+						<input type="Password" placeholder="Enter Password Here.." name="Password" class="form-control" required>
+					</div>
+					<div class="form-group">
+						<label>Re-enter Password</label>
+						<input type="text" placeholder="Re-enter Password Here.." name="pass" class="form-control" required>
+					</div>
+					<div>
+					<button type="Submit" class="btn btn-lg btn-info">Submit</button>					
+					</div>
+				</form> 
+				</div>
+	</div>
+	</div>
+
+
+</body>
+</html>

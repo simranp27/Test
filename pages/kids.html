@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Genre | Kids </title>
+
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Acme|Amatic+SC|Bangers|Chelsea+Market|Fugaz+One|Gamja+Flower|Kaushan+Script|Luckiest+Guy|Merienda|Permanent+Marker|Ruslan+Display" rel="stylesheet">
+
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/style.js"></script>
+
+<style type="text/css">
+	.navigation-bar {
+		text-align: center;
+		font-size: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-family: 'Luckiest Guy';
+		/*z-index: 1000; */
+		background-color: #77b300;
+			}
+	.dropbtn {
+    background-color: #77b300;
+    color: black;
+    /*padding: 16px;*/
+    font-size: 25px;
+    border: none;
+    min-width: 100px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #77b300;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+	text-align: center;
+    color: black;
+    /*padding: 12px 16px;*/
+    text-decoration: none;
+    /*display: block;*/
+}
+
+.dropdown-content a:hover{
+	color: white;
+}
+.dropdown-content a:hover {
+	background-color: #77b300;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	animation: animate-nav-menu 300ms;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #77b300;
+}
+
+.dropbtn > a{
+	color: white;
+}
+
+.dropbtn > a:hover{
+	color: white;
+}
+@keyframes animate-nav-menu{
+	0%{
+		opacity: 0.3;
+		transform: translateY(50px);
+		transform: rotateZ(1deg);
+	}
+	50%{
+		transform: scale(1.05);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+		transform: rotateZ(0deg);
+	}
+}
+
+	.bar {
+		background-image: url(../img/universe.jpg);
+		background-size: cover;
+	}
+	.footer {
+		color: white;
+		padding-left: 50px;
+	}
+	.line {
+		width: 500px;
+		margin-left: 40px;
+	}
+	.a {
+		border-radius: 10px;
+	} 
+	.a:hover {
+		box-shadow: 5px 5px #252526;
+	}
+	.subhead {
+		font-family: 'Merienda', cursive;
+		color: white;
+	}
+	.element-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+	margin-left: 200px;
+	}
+	.caption {
+		color: white;
+	}
+	#book-icon {
+		width: 150px;
+		height: 175px;
+		border-image-width: 5px;
+		/*background: #01b200;*/
+	}
+	</style>
+
+</head>
+<body style="background-image: url('../img/cray.jpg'); background-size: cover;">
+
+<div class="container-fluid navigation-bar hide-in-mobile">
+		<div class="row">
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<a href="../pages/home.html"><button class="dropbtn">Home</button></a>
+			</div>
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<button class="dropbtn">Categories</button>
+				<div class="dropdown-content">
+					<a href="../pages/kids.html">Kids</a><br>
+					<a href="../pages/teen.html">Teen</a><br>
+					<a href="../pages/adult.html">Adult</a><br>
+				</div> 
+			</div>
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<button class="dropbtn">Blog</button>
+				<div class="dropdown-content">
+					<a href="../pages/read_blog.html">Read Blog</a><br>
+					<a href="../pages/write_blog.html">Write Blog</a>
+				</div>
+			</div>
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<a href="../pages/about_us.html"><button class="dropbtn">About Us</button></a>
+			</div>
+			<!-- <div class=" col-md-1 dropdown">
+				<a href="/pages/gallery.html"> <button class="dropbtn">Gallery</button> </a>
+			</div>
+			<div class=" col-md-1 dropdown">
+				<a href="/pages/aboutus.html"> <button class="dropbtn">AboutUs</button> </a>
+			</div> -->
+		</div>
+	</div>
+<br>
+<!-- start working from here card-view -->
+<div class="container-fluid">
+	<div class="row">
+		
+			<center>
+				<h2 class="subhead">Explore Children's Books by Age</h2>
+				<br><br>
+				<a href="../pages/3-5.html">
+					<img src="../img/3-5.png" class="a" alt="3-5 yrs">
+				</a>
+				<a href="../pages/6-8.html">
+					<img src="../img/6-8.png" class="a" alt="6-8 yrs">
+				</a>
+				<a href="../pages/9-12.html">
+					<img src="../img/9-12.png" class="a" alt="9-12 yrs">
+				</a>
+			</center>
+		
+	</div>
+</div>
+<br>
+
+<div class="container-fluid">
+	<div class="row courses-row">
+	<br>
+		<center>
+				<h2 class="subhead">Explore Children's Non-Fiction</h2>
+				<br><br>
+		</center>
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/3-5/and-also_imagination_story-FKB.pdf">
+							<center><img src="../img/3-5/And_Also-story_about_imagination-FKB.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/3-5/and-also_imagination_story-FKB.pdf" style="color: white;"><center>And Also</center></a>
+							</h4>
+							<span><center><p>Illustrated by Anja Venter,
+							 Written by Lauren Beukes</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/3-5/and-also_imagination_story-FKB.pdf">
+							<center><img src="../img/3-5/samuel_whiskers.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/3-5/and-also_imagination_story-FKB.pdf" style="color: white;"><center>The Tale of Samuel Whiskers</center></a>
+							</h4>
+							<span><center><p>Beatrix Potter</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/3-5/Captain-Rens-trip-to-Mars.pdf">
+							<center><img src="../img/3-5/Captain_Rens_Trip_to_Mars-Early-Reader-Cover.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/3-5/Captain-Rens-trip-to-Mars.pdf" id="book-icon" style="color: white;"><center>Captain Ren's Trip to Mars</center></a>
+							</h4>
+							<span><center><p>Written by Bel Richardson, Illustrated by Mykyta Harets</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/3-5/circles_en_FKB_childrens_story_about_death.pdf">
+							<center><img src="../img/3-5/Circles-coverimage.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/3-5/circles_en_FKB_childrens_story_about_death.pdf" id="book-icon" style="color: white;"><center>Circles</center></a>
+							</h4>
+							<span><center><p>Illustrated by Patric Latimer, Written by Alex Latimer</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/3-5/Pepper_and_Carrot_Comic_Episode_02_FKB-compressed.pdf">
+							<center><img src="../img/3-5/peppercarrot_episode02_0000.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/3-5/Pepper_and_Carrot_Comic_Episode_02_FKB-compressed.pdf" id="book-icon" style="color: white;"><center>Pepper and Carrot</center></a>
+							</h4>
+							<span><center><p>David Envoy</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>	
+	</div>		
+</div>
+
+<div class="container-fluid">
+	<div class="row courses-row">
+		<br>
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/3-5/Ranger-Forester.pdf">
+							<center><img src="../img/3-5/Ranger_Forester-early_reader-cover.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/3-5/Ranger-Forester.pdf" id="book-icon" style="color: white;"><center>Ranger Forester</center></a>
+							</h4>
+							<span><center><p>Written by Bel Richardson, Illustrated by Mykyta Harets</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/3-5/toast_wordless_20180423.pdf">
+							<center><img src="../img/3-5/toast-wordless-book-cover.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/3-5/toast_wordless_20180423.pdf" style="color: white;"><center>Toast</center></a>
+							</h4>
+							<span><center><p>Illustrated by Alex Latimer, Written by Helen Moffett</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/3-5/The-cat-in-the-ghat_adventure_FKB.pdf">
+							<center><img src="../img/3-5/Adventure_western_Ghat-FKB-image2.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/3-5/The-cat-in-the-ghat_adventure_FKB.pdf" id="book-icon" style="color: white;"><center>Cat in the Ghat</center></a>
+							</h4>
+							<span><center><p>Author: Ambika Rao Illustrator: Ruchi Shah</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/3-5/The-Fish-and-Chip-Shop.pdf">
+							<center><img src="../img/3-5/Fish-and-chip-shop-FKB-cover.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/3-5/The-Fish-and-Chip-Shop.pdf" id="book-icon" style="color: white;"><center>The Fish and Chip Shop</center></a>
+							</h4>
+							<span><center><p>Written by Bel Richardson, Illustrated by Balarupa</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/3-5/where-is-lulu_en_20180503-FKB.pdf">
+							<center><img src="../img/3-5/where-is-lulu_en_20180605_FKB_cover.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/3-5/where-is-lulu_en_20180503-FKB.pdf" id="book-icon" style="color: white;"><center>Where's Lulu</center></a>
+							</h4>
+							<span><center><p>Illustrated by Clyde Beech, Written by Mohale Mashigo</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>	
+	</div>		
+</div>	
+<br>
+
+<div class="container-fluid bar">
+		<div class="row">
+			<h4 class="footer">Email</h4>
+			<hr class="line">
+			<h4 class="footer">simran.panchal1998@gmail.com</h4>
+			<h4 class="footer">monika.patil2911@gmail.com</h4>
+			<h4 class="footer">vidya.vox30@gmail.com</h4>
+			<br>
+			<h5 class="footer">Phone</h5>
+			<hr class="line">
+			<h5 class="footer">7875108698</h5>
+			<h5 class="footer">8756905323</h5>
+			<h5 class="footer">7732091373</h5>
+		</div>
+
+		<div></div>
+	</div>
+
+</body>
+</html>

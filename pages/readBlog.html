@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Read Blog</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Acme|Amatic+SC|Bangers|Chelsea+Market|Courgette|Fahkwang|Fugaz+One|Gamja+Flower|Handlee|Kaushan+Script|Luckiest+Guy|Mali|Merienda|Monoton|Pacifico|Permanent+Marker|Ruslan+Display|Satisfy|Special+Elite" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/style.js"></script>
+
+<style type="text/css">
+	.navigation-bar {
+		text-align: center;
+		font-size: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-family: 'Luckiest Guy';
+		/*z-index: 1000; */
+		background-color: #77b300;
+	
+
+			}
+	.dropbtn {
+    background-color: #77b300;
+    color: black;
+    /*padding: 16px;*/
+    font-size: 25px;
+    border: none;
+    min-width: 100px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #77b300;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+	text-align: center;
+    color: white;
+    /*padding: 12px 16px;*/
+    text-decoration: none;
+    /*display: block;*/
+}
+
+.dropdown-content a:hover{
+	color: black;
+}
+.dropdown-content a:hover {
+	background-color: #77b300;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	animation: animate-nav-menu 300ms;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #77b300;
+}
+
+.dropbtn > a{
+	color: black;
+}
+
+.dropbtn > a:hover{
+	color: black;
+}
+@keyframes animate-nav-menu{
+	0%{
+		opacity: 0.3;
+		transform: translateY(50px);
+		transform: rotateZ(1deg);
+	}
+	50%{
+		transform: scale(1.05);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+		transform: rotateZ(0deg);
+	}
+}
+	.titlebar {
+		z-index: -1;
+		background-image: url('../img/woodtype (3).jpg');
+		background-size: cover;
+		
+	}
+	.title {
+		text-align: center;
+		padding-top: 15px;
+		color: #ffc34d;
+	}
+	.logo {
+		height: 175px;
+		width: 200px;
+		padding-top: 3px;
+		display: flex;
+		box-shadow: 5px;
+	}
+	.heading {
+		font-family: 'Ruslan Display', cursive;
+		font-size: 50px;
+	}
+	.lines {
+		font-family: 'Kaushan Script', cursive;
+	}
+	.bar {
+		background-image: url(../img/universe.jpg);
+		background-size: cover;
+	}
+	.footer {
+		color: white;
+		padding-left: 50px;
+	}
+	.line {
+		width: 500px;
+		margin-left: 40px;
+	}
+	#vision {
+		background: rgba(0, 0, 0, 0.7);
+		color: white;
+		border-radius: 9%;
+		font-family: 'Acme', sans-serif;
+
+
+	}
+	#mission {
+		background: rgba(0, 0, 0, 0.7);
+		color: white;
+		border-radius: 12%;
+		background-height: auto 100;
+		font-family: 'Acme', sans-serif;
+
+	}
+	.bhd {
+		font-size: 20px;
+		line-height: 1.5;
+		word-spacing: 2px;
+
+	}
+	.element-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: black; 
+	font-family: 'Acme', sans-serif;
+	font-size: 25px;
+	}
+	.sad {
+		background-color: rgba(230, 230, 255, 0.6);
+		padding-bottom: 10px;
+		padding-top: 10px;
+		margin-right: 80px;
+		margin-left: 80px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 28px;
+		text-align: center;
+		}
+	.sad:hover {
+		box-shadow: 5px 10px grey;
+		transition: 300ms;
+		transform: translate3d(0px, 5px, 5px);
+	}
+	.reg:hover {
+		box-shadow: 5px 10px grey;
+		color: grey;	
+	}
+</style>
+
+</head>
+
+<body class="background" style="background-image: url('../img/black (1).jpg'); background-size: cover;">
+
+<div class="container-fluid navigation-bar nav-container hide-in-mobile">
+		<div class="row">
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<a href="../pages/home.html"><button class="dropbtn">Home</button></a>
+			</div>
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<button class="dropbtn">Categories</button>
+				<div class="dropdown-content">
+					<a href="../pages/kids.html">Kids</a><br>
+					<a href="../pages/teen.html">Teen</a><br>
+					<a href="../pages/adult.html">Adult</a><br>
+				</div> 
+			</div>
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<button class="dropbtn">Blog</button>
+				<div class="dropdown-content">
+					<a href="../pages/readBlog.html" class="courses-heading">Read Blog</a><br>
+					<a href="../pages/writeBlog.html">Write Blog</a>
+				</div>
+			</div>
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<a href="../pages/about_us.html"><button class="dropbtn">About Us</button></a>
+			</div>
+			<!-- <div class=" col-md-1 dropdown">
+				<a href="/pages/gallery.html"> <button class="dropbtn">Gallery</button> </a>
+			</div>
+			<div class=" col-md-1 dropdown">
+				<a href="/pages/aboutus.html"> <button class="dropbtn">AboutUs</button> </a>
+			</div> -->
+		</div>
+	</div>
+<br>
+<div class="container-fluid course-main-container">
+	<hr style="border-color: white; width: 300px;">
+		<div class="row courses-head-title element-center">
+			<div class="col-md-3">
+				<h2 style="color: white; font-family: 'Merienda', cursive; font-size: 50px;"><center>Blogs</center></h2>
+			</div>
+		</div>
+		<hr style="border-color: white; width: 300px;">
+<br>
+		<div class="row courses-row">
+			<div class="col-md-4 col-sm-12 course-container">
+				<div class="element-center sad">
+					<div class="course-icon"> <i class="fas fa-book-reader"></i> </div>
+					<hr>
+					<div class="course-title"> <a href="" style="color: #ff6600;">Read <br> Me <br></a></div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12  course-container">
+				<div class="element-center sad">
+					<div class="course-icon"> <i class="fas fa-book-reader"></i> </div>
+					<hr>
+					<div class="course-title"> <a href="" style="color: #ff6600;">Read <br> Me <br></a> </div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12 course-container">
+				<div class="element-center sad">
+					<div class="course-icon"> <i class="fas fa-book-reader"></i> </div>
+					<hr>
+					<div class="course-title"> <a href="" style="color: #ff6600;">Read <br> Me <br></a></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<br>
+
+	<div class="container-fluid course-main-container">
+	<br>
+
+		<div class="row courses-row">
+			<div class="col-md-4 col-sm-12 course-container">
+				<div class="element-center sad">
+					<div class="course-icon"> <i class="fas fa-book-reader"></i> </div>
+					<hr>
+					<div class="course-title"> <a href="" style="color: #ff6600;">Stayed up Late Binge Watch...<br><a href="">Read More</a><br></a></div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12  course-container">
+				<div class="element-center sad">
+					<div class="course-icon"> <i class="fas fa-book-reader"></i> </div>
+					<hr>
+					<div class="course-title"> <a href="" style="color: #ff6600;">Read <br> Me <br></a> </div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12 course-container">
+				<div class="element-center sad">
+					<div class="course-icon"> <i class="fas fa-book-reader"></i> </div>
+					<hr>
+					<div class="course-title"> <a href="" style="color: #ff6600;">Read <br> Me <br></a></div>
+				</div>
+			</div>
+		</div>
+<br>
+	</div>
+	<br>
+
+<div class="container-fluid bar">
+		<div class="row">
+			<h4 class="footer">Email</h4>
+			<hr class="line">
+			<h4 class="footer">simran.panchal1998@gmail.com</h4>
+			<h4 class="footer">monika.patil2911@gmail.com</h4>
+			<h4 class="footer">vidya.vox30@gmail.com</h4>
+			<br>
+			<h5 class="footer">Phone</h5>
+			<hr class="line">
+			<h5 class="footer">7875108698</h5>
+			<h5 class="footer">8756905323</h5>
+			<h5 class="footer">7732091373</h5>
+		</div>
+
+		<div></div>
+	</div>
+</body>
+</html>

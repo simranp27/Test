@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Genre | Teen </title>
+
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Acme|Amatic+SC|Bangers|Chelsea+Market|Fugaz+One|Gamja+Flower|Kaushan+Script|Luckiest+Guy|Merienda|Permanent+Marker|Ruslan+Display" rel="stylesheet">
+
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/style.js"></script>
+
+<style type="text/css">
+	.navigation-bar {
+		text-align: center;
+		font-size: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-family: 'Luckiest Guy';
+		/*z-index: 1000; */
+		background-color: #77b300;
+	
+
+			}
+	.dropbtn {
+    background-color: #77b300;
+    color: black;
+    /*padding: 16px;*/
+    font-size: 25px;
+    border: none;
+    min-width: 100px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #77b300;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+	text-align: center;
+    color: white;
+    /*padding: 12px 16px;*/
+    text-decoration: none;
+    /*display: block;*/
+}
+
+.dropdown-content a:hover{
+	color: black;
+}
+.dropdown-content a:hover {
+	background-color: #77b300;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	animation: animate-nav-menu 300ms;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #77b300;
+}
+
+.dropbtn > a{
+	color: black;
+}
+
+.dropbtn > a:hover{
+	color: black;
+}
+@keyframes animate-nav-menu{
+	0%{
+		opacity: 0.3;
+		transform: translateY(50px);
+		transform: rotateZ(1deg);
+	}
+	50%{
+		transform: scale(1.05);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+		transform: rotateZ(0deg);
+	}
+}
+
+	.bar {
+		background-image: url(../img/universe.jpg);
+		background-size: cover;
+	}
+	.footer {
+		color: white;
+		padding-left: 50px;
+	}
+	.line {
+		width: 500px;
+		margin-left: 40px;
+	}
+	.a {
+		border-radius: 10px;
+	} 
+	.a:hover {
+		box-shadow: 5px 5px #252526;
+	}
+	.subhead {
+		font-family: 'Merienda', cursive;
+		color: white;
+	}
+	.element-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+	margin-left: 200px;
+	}
+	.caption {
+		color: white;
+	}
+	#book-icon {
+		width: 150px;
+		height: 175px;
+		border-image-width: 5px;
+		/*background: #01b200;*/
+	}
+	</style>
+
+</head>
+<body style="background-image: url('../img/cray.jpg'); background-size: cover;">
+
+<div class="container-fluid navigation-bar hide-in-mobile">
+		<div class="row">
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<a href="../pages/home.html"><button class="dropbtn">Home</button></a>
+			</div>
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<button class="dropbtn">Categories</button>
+				<div class="dropdown-content">
+					<a href="../pages/kids.html">Kids</a><br>
+					<a href="../pages/teen.html">Teen</a><br>
+					<a href="../pages/adult.html">Adult</a><br>
+				</div> 
+			</div>
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<button class="dropbtn">Blog</button>
+				<div class="dropdown-content">
+					<a href="../pages/read_blog.html">Read Blog</a><br>
+					<a href="../pages/write_blog.html">Write Blog</a>
+				</div>
+			</div>
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<a href="../pages/about_us.html"><button class="dropbtn">About Us</button></a>
+			</div>
+			<!-- <div class=" col-md-1 dropdown"	>
+				<a href="/pages/gallery.html"> <button class="dropbtn">Gallery</button> </a>
+			</div>
+			<div class=" col-md-1 dropdown">
+				<a href="/pages/aboutus.html"> <button class="dropbtn">AboutUs</button> </a>
+			</div> -->
+		</div>
+	</div>
+<br>
+
+<div class="container-fluid">
+	<div class="row courses-row">
+	<br>
+		<center>
+				<h2 class="subhead">Explore Teen's Novels By Best-selling Authors</h2>
+				<br><br>
+		</center>
+		<h2 class="subhead" style="margin-left: 15px;">Books by Karen Lynch~</h2>
+				<br><br>
+			<div class="col-md-2 col-sm-12 book-container">
+
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/karen_lynch/relentless.epub">
+							<center><img src="../img/karen_lynch/relentless.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/relentless.epub" style="color: white;"><center>Relentless</center></a>
+							</h4>
+							<span><center><p>YA Fantasy</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/karen_lynch/refuge.epub">
+							<center><img src="../img/karen_lynch/refuge.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/karen_lynch/refuge.epub" style="color: white;"><center>Refuge</center></a>
+							</h4>
+							<span><center><p>YA Fantasy</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/karen_lynch/rogue.epub">
+							<center><img src="../img/karen_lynch/rogue.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/karen_lynch/rogue.epub" id="book-icon" style="color: white;"><center>Rogue</center></a>
+							</h4>
+							<span><center><p>YA Fantasy</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/karen_lynch/warrior.epub">
+							<center><img src="../img/karen_lynch/warrior.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/karen_lynch/warrior.epub" id="book-icon" style="color: white;"><center>Warrior</center></a>
+							</h4>
+							<span><center><p>YA Fantasy</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/karen_lynch/haven.epub">
+							<center><img src="../img/karen_lynch/haven.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/karen_lynch/haven.epub" id="book-icon" style="color: white;"><center>Haven</center></a>
+							</h4>
+							<span><center><p>YA Fantasy</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>	
+	</div>		
+</div>
+
+
+<div class="container-fluid">
+	<div class="row courses-row">
+		<br>
+		<h2 class="subhead" style="margin-left: 15px;">Books by Regan Ure~</h2>
+				<br><br>
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/regan_ure/alpha.epub">
+							<center><img src="../img/regan_ure/alpha.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/regan_ure/alpha.epub" id="book-icon" style="color: white;"><center>Alpha</center></a>
+							</h4>
+							<span><center><p>YA Fantasy</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/regan_ure/fated.epub">
+							<center><img src="../img/regan_ure/fated.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/regan_ure/fated.epub" style="color: white;"><center>Fated</center></a>
+							</h4>
+							<span><center><p>YA Fantasy</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/regan_ure/destined.epub">
+							<center><img src="../img/regan_ure/destined.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/regan_ure/destined.epub" id="book-icon" style="color: white;"><center>Destined</center></a>
+							</h4>
+							<span><center><p>YA Fantasy</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/regan_ure/archaic.epub">
+							<center><img src="../img/regan_ure/archaic.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/regan_ure/archaic.epub" id="book-icon" style="color: white;"><center>Archaic</center></a>
+							</h4>
+							<span><center><p>YA Fantasy</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/regan_ure/hue.epub">
+							<center><img src="../img/regan_ure/hue.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/regan_ure/hue.epub" id="book-icon" style="color: white;"><center>Hue</center></a>
+							</h4>
+							<span><center><p>YA Fantasy</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>	
+	</div>		
+</div>	
+<br>
+
+<div class="container-fluid">
+	<div class="row courses-row">
+		<br>
+		<!-- <h2 class="subhead" style="margin-left: 15px;">Books by Regan Ure~</h2>
+				<br><br> -->
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/regan_ure/mason.epub">
+							<center><img src="../img/regan_ure/mason.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/regan_ure/mason.epub" id="book-icon" style="color: white;"><center>Mason</center></a>
+							</h4>
+							<span><center><p>YA Fantasy</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/regan_ure/descendant.epub">
+							<center><img src="../img/regan_ure/descendant.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/regan_ure/descendant.epub" style="color: white;"><center>Descendant</center></a>
+							</h4>
+							<span><center><p>YA Fantasy</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/regan_ure/surviving_slater.epub">
+							<center><img src="../img/regan_ure/surviving_slater.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/regan_ure/surviving_slater.epub" id="book-icon" style="color: white;"><center>Surviving Slater</center></a>
+							</h4>
+							<span><center><p>YA Fantasy</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/regan_ure/loving_taylor.epub">
+							<center><img src="../img/regan_ure/loving_taylor.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/regan_ure/loving_taylor.epub" id="book-icon" style="color: white;"><center>Loving Taylor</center></a>
+							</h4>
+							<span><center><p>YA Fantasy</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/regan_ure/breaking_matt.epub">
+							<center><img src="../img/regan_ure/breaking_matt.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/regan_ure/breaking_matt.epub" id="book-icon" style="color: white;"><center>Breaking Matt</center></a>
+							</h4>
+							<span><center><p>YA Fantasy</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>	
+	</div>		
+</div>	
+<br>
+
+<div class="container-fluid">
+	<div class="row courses-row">
+		<br>
+		<h2 class="subhead" style="margin-left: 15px;">Books by Robert Thier~</h2>
+				<br><br>
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/robert_thier/storm_and_silence.epub">
+							<center><img src="../img/robert_thier/storm_and_silence.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/robert_thier/storm_and_silence.epub" id="book-icon" style="color: white;"><center>Storm and Silence</center></a>
+							</h4>
+							<span><center><p>Historical Fiction</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/robert_thier/in_the_eye_of_the_storm.epub">
+							<center><img src="../img/robert_thier/in_the_eye_of_the_storm.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/robert_thier/in_the_eye_of_the_storm.epub" style="color: white;"><center>In The Eye of The Storm</center></a>
+							</h4>
+							<span><center><p>Historical Fiction</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/robert_thier/silence_is_golden.epub">
+							<center><img src="../img/robert_thier/silence_is_golden.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/robert_thier/silence_is_golden.epub" id="book-icon" style="color: white;"><center>Silence is Golden</center></a>
+							</h4>
+							<span><center><p>Historical Fiction</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/robert_thier/the_robber_knight.epub">
+							<center><img src="../img/robert_thier/the_robber_knight.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/robert_thier/the_robber_knight.epub" id="book-icon" style="color: white;"><center>The Robber Knight</center></a>
+							</h4>
+							<span><center><p>Historical Fiction</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/teen/robert_thier/warning_fairy_tales.epub">
+							<center><img src="../img/robert_thier/warning_fairy_tales.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/teen/robert_thier/warning_fairy_tales.epub" id="book-icon" style="color: white;"><center>Warning! Fairy Tales</center></a>
+							</h4>
+							<span><center><p>Hisorical Ficion</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>	
+	</div>		
+</div>	
+<br>
+
+<div class="container-fluid bar">
+		<div class="row">
+			<h4 class="footer">Email</h4>
+			<hr class="line">
+			<h4 class="footer">simran.panchal1998@gmail.com</h4>
+			<h4 class="footer">monika.patil2911@gmail.com</h4>
+			<h4 class="footer">vidya.vox30@gmail.com</h4>
+			<br>
+			<h5 class="footer">Phone</h5>
+			<hr class="line">
+			<h5 class="footer">7875108698</h5>
+			<h5 class="footer">8756905323</h5>
+			<h5 class="footer">7732091373</h5>
+		</div>
+
+		<div></div>
+	</div>
+
+</body>
+</html>

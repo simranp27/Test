@@ -1,0 +1,47 @@
+1. project title : e-library system(bibliotribe)
+2. project members : vidya, monika, simran
+3. problem statement (privileges provided to the end user)
+4. abstract (features and a tour of bibliotribe)
+5. system requirement
+
+home page:
+1. header :
+	a. logo/icon, title
+	b. home, contact us, about us 
+2. carousal
+	a. gallery (books which have turned into movies)
+3. sign-in
+4. footer (princeton site)
+
+(after signing in)
+cards: 
+1. read a book
+2. write a blog
+3. read a blog
+
+read a book:
+1. popular search (best selling authors of each genre): database
+2. genre cards: adults, teens, kids
+
+genre cards:
+adults:
+	action adventure, history, new adult, romance, speculative fiction, suspense/thriller
+teens:
+	chick-lit, classics, contemprorary fiction, humour, lgbt, poetry, science fiction, short stories
+kids:
+	biography, comics, fairy tales, GK, graphic novels, horror/supernatural
+
+(*in each genre there will an option button in the end to see all genre books and it will lead to specific(adult/teen/kids) database*)
+
+write a blog: (form)
+
+individual book page:
+1. front cover of the page
+2. highest ratings of the book
+3. read now
+4. rate
+
+pending: 
+about us
+contact us
+

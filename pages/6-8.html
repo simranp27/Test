@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Genre | Kids </title>
+
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Acme|Amatic+SC|Bangers|Chelsea+Market|Fugaz+One|Gamja+Flower|Kaushan+Script|Luckiest+Guy|Merienda|Permanent+Marker|Ruslan+Display" rel="stylesheet">
+
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/style.js"></script>
+
+<style type="text/css">
+	.navigation-bar {
+		text-align: center;
+		font-size: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-family: 'Luckiest Guy';
+		/*z-index: 1000; */
+		background-color: #77b300;
+			}
+	.dropbtn {
+    background-color: #77b300;
+    color: black;
+    /*padding: 16px;*/
+    font-size: 25px;
+    border: none;
+    min-width: 100px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #77b300;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+	text-align: center;
+    color: black;
+    /*padding: 12px 16px;*/
+    text-decoration: none;
+    /*display: block;*/
+}
+
+.dropdown-content a:hover{
+	color: white;
+}
+.dropdown-content a:hover {
+	background-color: #77b300;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	animation: animate-nav-menu 300ms;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #77b300;
+}
+
+.dropbtn > a{
+	color: white;
+}
+
+.dropbtn > a:hover{
+	color: white;
+}
+@keyframes animate-nav-menu{
+	0%{
+		opacity: 0.3;
+		transform: translateY(50px);
+		transform: rotateZ(1deg);
+	}
+	50%{
+		transform: scale(1.05);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+		transform: rotateZ(0deg);
+	}
+}
+
+	.bar {
+		background-image: url(../img/universe.jpg);
+		background-size: cover;
+	}
+	.footer {
+		color: white;
+		padding-left: 50px;
+	}
+	.line {
+		width: 500px;
+		margin-left: 40px;
+	}
+	.a {
+		border-radius: 10px;
+	} 
+	.a:hover {
+		box-shadow: 5px 5px #252526;
+	}
+	.subhead {
+		font-family: 'Merienda', cursive;
+		color: white;
+	}
+	.element-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+	margin-left: 200px;
+	}
+	.caption {
+		color: white;
+	}
+	#book-icon {
+		width: 150px;
+		height: 175px;
+		border-image-width: 5px;
+		/*background: #01b200;*/
+	}
+	</style>
+
+</head>
+<body style="background-image: url('../img/cray.jpg'); background-size: cover;">
+
+<div class="container-fluid navigation-bar hide-in-mobile">
+		<div class="row">
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<a href="../pages/home.html"><button class="dropbtn">Home</button></a>
+			</div>
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<button class="dropbtn">Categories</button>
+				<div class="dropdown-content">
+					<a href="../pages/kids.html">Kids</a><br>
+					<a href="../pages/teen.html">Teen</a><br>
+					<a href="../pages/adult.html">Adult</a><br>
+				</div> 
+			</div>
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<button class="dropbtn">Blog</button>
+				<div class="dropdown-content">
+					<a href="../pages/read_blog.html">Read Blog</a><br>
+					<a href="../pages/write_blog.html">Write Blog</a>
+				</div>
+			</div>
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<a href="../pages/about_us.html"><button class="dropbtn">About Us</button></a>
+			</div>
+			<!-- <div class=" col-md-1 dropdown">
+				<a href="/pages/gallery.html"> <button class="dropbtn">Gallery</button> </a>
+			</div>
+			<div class=" col-md-1 dropdown">
+				<a href="/pages/aboutus.html"> <button class="dropbtn">AboutUs</button> </a>
+			</div> -->
+		</div>
+	</div>
+<div class="container-fluid">
+	<div class="row courses-row">
+	<br>
+		<center>
+				<h2 class="subhead">Explore Children's Books For 6-8 Years Age Group</h2>
+				<br><br>
+		</center>
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/6-8/24754-dipa-karmakar-in-perfect-balance.pdf">
+							<center><img src="../img/6-8/Dipa-Karmakar-childrens-book-biography-cover.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/6-8/24754-dipa-karmakar-in-perfect-balance.pdf" style="color: white;"><center>In Perfect Balance</center></a>
+							</h4>
+							<span><center><p>Author: Sreelata Menon, Illustrator: Sonal Gupta</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/6-8/28270-anna-s-extraordinary-experiments-with-weather.pdf">
+							<center><img src="../img/6-8/Childrens-book-biography-Anna-Mani-cover.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/6-8/28270-anna-s-extraordinary-experiments-with-weather.pdf" style="color: white;"><center>Anna's Extraordinary Experiments with the Weather</center></a>
+							</h4>
+							<span><center><p>Author: Nandita Jayaraj, Illustrator: Priya Kuriyan</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/6-8/Dorina-in-the-enchanted-sea.pdf">
+							<center><img src="../img/6-8/Dorina-in-the-enchanted-sea-underwater-fantasy-early-chapterbook.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/6-8/Dorina-in-the-enchanted-sea.pdf" id="book-icon" style="color: white;"><center>Dorina in the Enchanted Sea</center></a>
+							</h4>
+							<span><center><p>Costanza Cerrotta</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/6-8/pisus-revenge-middle-grade-fantasy.pdf">
+							<center><img src="../img/6-8/pisus-revenge-MG-fantasy-cover.png" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/6-8/pisus-revenge-middle-grade-fantasy.pdf" id="book-icon" style="color: white;"><center>Pisu's Revenge</center></a>
+							</h4>
+							<span><center><p>Susha Golomb</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/6-8/Sam-Dragon-FKB-PDF-180831.pdf">
+							<center><img src="../img/6-8/Sam-Dragon-early-to-MG-FKB-Cover.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/6-8/Sam-Dragon-FKB-PDF-180831.pdf" id="book-icon" style="color: white;"><center>Sam Dragon</center></a>
+							</h4>
+							<span><center><p>Stephen Corcoran</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>	
+	</div>		
+</div>
+
+<div class="container-fluid">
+	<div class="row courses-row">
+		<br>
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/6-8/Spirit-Storybooks-Ebook-Version_FKB.pdf">
+							<center><img src="../img/6-8/Spirit_Storybooks_Cover.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/6-8/Spirit-Storybooks-Ebook-Version_FKB.pdf" id="book-icon" style="color: white;"><center>Spirit Storybooks</center></a>
+							</h4>
+							<span><center><p>Written by Aaron Zerah, Illustrated by Della Burford</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/6-8/The-jealousy-germ_Maria-Chatzi_FKB.pdf">
+							<center><img src="../img/6-8/The-Jelousy-Germ-Picturebook-Cover.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/6-8/The-jealousy-germ_Maria-Chatzi_FKB.pdf" style="color: white;"><center>The Jealousy Germ</center></a>
+							</h4>
+							<span><center><p>Written by Μaria Chatzi, Illustrated by Ioanna Teknetzi</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/6-8/the-magic-mango-CC-picture-book.pdf">
+							<center><img src="../img/6-8/Screenshot-2018-07-18-11.12.20.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/6-8/the-magic-mango-CC-picture-book.pdf" id="book-icon" style="color: white;"><center>Cat in the Ghat</center></a>
+							</h4>
+							<span><center><p>Author: Ambika Rao Illustrator: Ruchi Shah</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/6-8/The-princess-who-didnt-eat-eggplants_Chryssoula-Loulopoulou-FKB.pdf">
+							<center><img src="../img/6-8/The_Princess_who_did_not_eat_eggplants-childrens_book-feature-image.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/6-8/The-princess-who-didnt-eat-eggplants_Chryssoula-Loulopoulou-FKB.pdf" id="book-icon" style="color: white;"><center>The Princess that Didn't Eat Eggplants</center></a>
+							</h4>
+							<span><center><p>Written by Chryssoula Loulopoulou, Illustrated by Eftichia Koukouzeli-Dimakopoulou</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2 col-sm-12 book-container">
+				<div class="element-center">
+					<div>
+						<a href="../data/kids/6-8/Welcome-to-my-home-Picturebook-about-being-tidy-FKB.pdf">
+							<center><img src="../img/6-8/Welcome_to_my_Home-Picturebook_about_being_tidy-FKB.jpg" id="book-icon">
+							</center>
+						</a>
+						<div class="caption">
+							<h4>
+								<a href="../data/kids/6-8/Welcome-to-my-home-Picturebook-about-being-tidy-FKB.pdf" id="book-icon" style="color: white;"><center>Welcome to my Home</center></a>
+							</h4>
+							<span><center><p>Written by Yan Li, Illustrated by Louli El CHayal</p></center></span>
+						</div>
+					</div>
+				</div>
+			</div>	
+	</div>		
+</div>	
+	
+<br>
+
+<div class="container-fluid bar">
+		<div class="row">
+			<h4 class="footer">Email</h4>
+			<hr class="line">
+			<h4 class="footer">simran.panchal1998@gmail.com</h4>
+			<h4 class="footer">monika.patil2911@gmail.com</h4>
+			<h4 class="footer">vidya.vox30@gmail.com</h4>
+			<br>
+			<h5 class="footer">Phone</h5>
+			<hr class="line">
+			<h5 class="footer">7875108698</h5>
+			<h5 class="footer">8756905323</h5>
+			<h5 class="footer">7732091373</h5>
+		</div>
+
+		<div></div>
+	</div>
+
+</body>
+</html>

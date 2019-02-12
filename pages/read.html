@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Acme|Amatic+SC|Bangers|Chelsea+Market|Courgette|Fahkwang|Fugaz+One|Gamja+Flower|Handlee|Kaushan+Script|Luckiest+Guy|Mali|Merienda|Monoton|Pacifico|Permanent+Marker|Ruslan+Display|Satisfy|Special+Elite" rel="stylesheet">
+
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/style.js"></script>
+
+<style type="text/css">
+	.navigation-bar {
+		text-align: center;
+		font-size: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-family: 'Luckiest Guy';
+		/*z-index: 1000; */
+		background-color: #77b300;
+	
+
+			}
+	.dropbtn {
+    background-color: #77b300;
+    color: black;
+    /*padding: 16px;*/
+    font-size: 25px;
+    border: none;
+    min-width: 100px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #77b300;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+	text-align: center;
+    color: white;
+    /*padding: 12px 16px;*/
+    text-decoration: none;
+    /*display: block;*/
+}
+
+.dropdown-content a:hover{
+	color: black;
+}
+.dropdown-content a:hover {
+	background-color: #77b300;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	animation: animate-nav-menu 300ms;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #77b300;
+}
+
+.dropbtn > a{
+	color: black;
+}
+
+.dropbtn > a:hover{
+	color: black;
+}
+@keyframes animate-nav-menu{
+	0%{
+		opacity: 0.3;
+		transform: translateY(50px);
+		transform: rotateZ(1deg);
+	}
+	50%{
+		transform: scale(1.05);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+		transform: rotateZ(0deg);
+	}
+}
+	.titlebar {
+		z-index: -1;
+		background-image: url('../img/woodtype (3).jpg');
+		background-size: cover;
+		
+	}
+	.title {
+		text-align: center;
+		padding-top: 15px;
+		color: #ffc34d;
+	}
+	.logo {
+		height: 175px;
+		width: 200px;
+		padding-top: 3px;
+		display: flex;
+		box-shadow: 5px;
+	}
+	.heading {
+		font-family: 'Ruslan Display', cursive;
+		font-size: 50px;
+	}
+	.lines {
+		font-family: 'Kaushan Script', cursive;
+	}
+	.bar {
+		background-image: url(../img/universe.jpg);
+		background-size: cover;
+	}
+	.footer {
+		color: white;
+		padding-left: 50px;
+	}
+	.line {
+		width: 500px;
+		margin-left: 40px;
+	}
+	#vision {
+		background: rgba(0, 0, 0, 0.7);
+		color: white;
+		border-radius: 9%;
+		font-family: 'Acme', sans-serif;
+
+
+	}
+	#mission {
+		background: rgba(0, 0, 0, 0.7);
+		color: white;
+		border-radius: 12%;
+		background-height: auto 100;
+		font-family: 'Acme', sans-serif;
+
+	}
+	.bhd {
+		font-size: 20px;
+		line-height: 1.5;
+		word-spacing: 2px;
+
+	}
+	.kids {
+		font-size: 50px;
+		background-color: #07888e;
+		height: 200px;
+		width: 500px;
+		text-align: center;
+		padding-top: 60px;
+		margin-left: 60px;
+		margin-right: 30px;
+		font-family: 'Monoton', cursive;
+	}
+	.kids:hover {
+		box-shadow: 5px 10px #086372;
+		transition: 300ms;	
+	}
+	.teen {
+		font-size: 50px;
+		background-color: #ef7121;
+		height: 200px;
+		width: 500px;
+		text-align: center;
+		padding-top: 60px;
+		margin-left: 430px;
+		margin-right: 30px;
+		font-family: 'Monoton', cursive;
+	}
+	.teen:hover {
+		box-shadow: 5px 10px #ce5000;
+		transition: 300ms;	
+	}
+	.adult {
+		font-size: 50px;
+		background-color: #68c40b;
+		height: 200px;
+		width: 500px;
+		text-align: center;
+		padding-top: 60px;
+		margin-left: 770px;
+		margin-right: 30px;
+		font-family: 'Monoton', cursive;
+	}
+	.adult:hover {
+		box-shadow: 5px 10px #4c9107;
+		transition: 300ms;	
+	}
+	.cat {
+		background-color: rgba(42, 44, 48, 0.7);
+		height: 70px;
+		font-family: 'Monoton', cursive;	
+	}
+</style>
+
+</head>
+
+<body class="background" style="background-image: url('../img/typewriter.jpg'); background-size: cover;">
+
+<div class="container-fluid navigation-bar nav-container hide-in-mobile">
+		<div class="row">
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<a href="../pages/home.html"><button class="dropbtn">Home</button></a>
+			</div>
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<button class="dropbtn">Categories</button>
+				<div class="dropdown-content">
+					<a href="../pages/kids.html">Kids</a><br>
+					<a href="../pages/teen.html">Teen</a><br>
+					<a href="../pages/adult.html">Adult</a><br>
+				</div> 
+			</div>
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<button class="dropbtn">Blog</button>
+				<div class="dropdown-content">
+					<a href="../pages/read_blog.html" class="courses-heading">Read Blog</a><br>
+					<a href="../pages/write_blog.html">Write Blog</a>
+				</div>
+			</div>
+			<div class=" col-md-2 col-sm-12 dropdown">
+				<a href="../pages/about_us.html"><button class="dropbtn">About Us</button></a>
+			</div>
+			<!-- <div class=" col-md-1 dropdown">
+				<a href="/pages/gallery.html"> <button class="dropbtn">Gallery</button> </a>
+			</div>
+			<div class=" col-md-1 dropdown">
+				<a href="/pages/aboutus.html"> <button class="dropbtn">AboutUs</button> </a>
+			</div> -->
+		</div>
+	</div>
+<br>
+<div class="container-fluid">
+	<div class="row">
+		<div class="cat"><center><h1 style="color: white; text-align: center; padding-top: 15px;">Different&nbsp;&nbsp;Categories&nbsp;&nbsp;of&nbsp;&nbsp;Books&nbsp;&nbsp;are...</h1></center></div>
+		<br>
+		<div class="kids">
+			<a href="../pages/kids.html" style="padding-left: 15px; color: white;">Kids</a>
+		</div>		
+		<br>
+		<div class="teen">
+			<a href="../pages/teen.html" style="padding-left: 15px; color: white;">Teen</a>
+		</div>		
+		<br>
+		<div class="adult">
+			<a href="../pages/adult.html" style="padding-left: 15px; color: white;">Adult</a>
+		</div>
+	</div>
+</div>
+border-radius
+	
+<div class="container-fluid bar">
+		<div class="row">
+			<h4 class="footer">Email</h4>
+			<hr class="line">
+			<h4 class="footer">simran.panchal1998@gmail.com</h4>
+			<h4 class="footer">monika.patil2911@gmail.com</h4>
+			<h4 class="footer">vidya.vox30@gmail.com</h4>
+			<br>
+			<h5 class="footer">Phone</h5>
+			<hr class="line">
+			<h5 class="footer">7875108698</h5>
+			<h5 class="footer">8756905323</h5>
+			<h5 class="footer">7732091373</h5>
+		</div>
+
+		<div></div>
+	</div>
+</body>
+</html>

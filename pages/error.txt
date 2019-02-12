@@ -1,0 +1,2 @@
+1) dropdown is not working in home page and about us page. 
+2) navbar cannot be z-indexed in every page.
